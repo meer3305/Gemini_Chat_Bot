@@ -34,3 +34,16 @@
 ```bash
 git clone https://github.com/meer3305/Gemini_Chat_Bot.git
 cd Gemini_Chat_Bot
+
+Backend Setup
+cd backend
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+export GEMINI_API_KEY="your_api_key_here"
+python app.py
+
+Frontend Setup
+cd frontend
+npm install
+npm start
